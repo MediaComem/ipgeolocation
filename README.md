@@ -19,10 +19,14 @@ simplified example of the output:
 ```csv
 ip,type,result,country_code2,country_name,state_prov,city,...
 100.101.102.103,ipv4,success,US,United States,New York,Syracuse,...
+104.105.106.107,ipv4,success,US,United States,Wisconsin,Canton,...
+200.201.202.203,ipv4,success,US,United States,Colorado,Denver,...
 ```
 
 The description of all returned geolocation data can be found here:
 https://ipgeolocation.io/documentation/ip-geolocation-api.html
+
+**NOTE: you need a (free) [ipgeolocation](https://ipgeolocation.io) account and API key.**
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
